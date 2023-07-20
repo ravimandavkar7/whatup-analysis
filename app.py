@@ -3,10 +3,7 @@ import matplotlib.pyplot as plt
 
 import helper
 import preprocesser,helper
-import ptvsd
 import seaborn as sns
-
-ptvsd.enable_attach(address=('0.0.0.0', 5678))
 
 st.sidebar.title("wht up cht anlayiser")
 
