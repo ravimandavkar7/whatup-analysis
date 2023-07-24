@@ -5,6 +5,7 @@ import helper
 import preprocesser,helper
 import seaborn as sns
 
+
 st.sidebar.title("wht up cht anlayiser")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
@@ -17,7 +18,7 @@ if uploaded_file is not None:
    # ique user
 
    user_list=df['user'].unique().tolist()
-   user_list.remove('Taval Toli 💥✨')
+ #  user_list.remove('Taval Toli 💥✨')
 
    user_list.sort()
    user_list.insert(0,"All")
